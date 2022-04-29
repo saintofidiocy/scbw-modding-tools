@@ -1,0 +1,30 @@
+#include <windows.h>
+#include "SpkComp.h"
+
+1 ICON "SpkComp.ico"
+
+1 VERSIONINFO
+FILEVERSION VER_MAJOR,VER_MINOR,VER_RELEASE,0
+PRODUCTVERSION VER_MAJOR,VER_MINOR,VER_RELEASE,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "CompanyName", "[MM] Productions"
+      VALUE "FileVersion", VSTR
+      VALUE "FileDescription", ""
+      VALUE "InternalName", ""
+      VALUE "LegalCopyright", "2019-" VER_YEAR
+      VALUE "LegalTrademarks", ""
+      VALUE "OriginalFilename", "SpkComp.exe"
+      VALUE "ProductName", "SpkComp"
+      VALUE "ProductVersion", VSTR
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252
+  }
+}
